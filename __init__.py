@@ -40,8 +40,8 @@ bl_info = {
     "location": "Graph editor > N panel > BRRES Animation Exporter",
     "description": "Export F-Curves as CHR0, CLR0 or STR0 node",
     "warning": "Experimental",
-    "wiki_url": "",
-    "tracker_url": "",
+    "wiki_url": "https://github.com/JDS890/BRRES-Animation-Exporter-Blender-Add-on/blob/main/README.md",
+    "tracker_url": "https://github.com/JDS890/BRRES-Animation-Exporter-Blender-Add-on",
     "category": "Export"
 }
 
