@@ -24,10 +24,10 @@ A basic understanding of animating properties, creating shaders and rigging is b
 - Preserves the shape of F-Curves comprised of key frames with unique left and right tangents and of any interpolation type (Bezier, constant or linear).  
 
   *Image of Blender F-Curve containing key frames with unique left and right tangents and Bezier, constant or linear interpolation types.*  
-  ![Example Curve Before Export](README_images/example_curve_before.png?raw=true)  
+  ![Example Curve Before Export](README_images/example_curve_before.PNG?raw=true)  
 
   *Resulting curve produced by exporting above F-Curve as CHR0 node using BRRES Animation Exporter add-on, displayed using BrawlCrate. Key features of the original F-Curve are preserved.*  
-  ![Example Curve After Export](README_images/example_curve_after.png?raw=true)  
+  ![Example Curve After Export](README_images/example_curve_after.PNG?raw=true)  
 
 -	[*CHR0 node type*] Exports to all 5 precision formats supported by BRRES CHR0 files. Calculates and exports using the most efficient format by default, but also offers option to force a more precise (resulting in a larger file) format.
 -	Displays dynamic, real-time hints to minimise ambiguity. Hides the export button until all hints have been solved.
@@ -35,7 +35,7 @@ A basic understanding of animating properties, creating shaders and rigging is b
 -	Allows user to choose multiple F-Curves to drive different components of the animation node (specific to the type of animation node). **Any** selection of F-Curves can be used, provided it corresponds one-to-one with the ticked components in the add-on.
 
     *A ‘valid’ selection of F-Curves in Blender’s graph editor. The number of selected F-Curves in the left panel matches the number of components ticked in the BRRES Animation Exporter add-on. The order of the selected F-Curves (i.e. ‘Scale X’, ‘Scale Y’ etc.) matches the order of the ticked components in the add-on.*  
-  ![Example F-Curve Selection](README_images/example_fcurve_selection.png?raw=true)  
+  ![Example F-Curve Selection](README_images/example_fcurve_selection.PNG?raw=true)  
 
 - Allows user to specify an interval on the timeline to export from.
 -	Exports animation nodes to the same directory as Blend file. Filename includes Blend filename, node type, number of frames and node name. Won’t overwrite existing file with the same filename.
