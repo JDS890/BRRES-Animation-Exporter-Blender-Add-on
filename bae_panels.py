@@ -28,7 +28,7 @@ from .bae_helpers import (
 class BRRESANIMATIONEXPORTER_PT_All(bpy.types.Panel):
 
     bl_idname = "BRRESANIMATIONEXPORTER_PT_All"
-    bl_label = "Export selected F-Curves as CHR0, CLR0 or STR0 node"
+    bl_label = "Export Selected F-Curves"
     bl_space_type = 'GRAPH_EDITOR'
     bl_region_type = 'UI'
     bl_category = "BRRES Animation Exporter"
