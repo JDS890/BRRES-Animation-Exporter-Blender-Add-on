@@ -36,13 +36,13 @@ bl_info = {
     "name": "BRRES Animation Exporter",
     "author": "JDS",
     "version": (1, 0, 0),
-    "blender": (2, 92, 0),
+    "blender": (2, 80, 0),
     "location": "Graph editor > N panel > BRRES Animation Exporter",
     "description": "Export F-Curves as CHR0, CLR0 or STR0 node",
     "warning": "Experimental",
-    "wiki_url": "https://github.com/JDS890/BRRES-Animation-Exporter-Blender-Add-on/blob/main/README.md",
+    "wiki_url": "https://github.com/JDS890/BRRES-Animation-Exporter-Blender-Add-on#readme",
     "tracker_url": "https://github.com/JDS890/BRRES-Animation-Exporter-Blender-Add-on",
-    "category": "Export"
+    "category": "Import-Export"
 }
 
 classes = (
